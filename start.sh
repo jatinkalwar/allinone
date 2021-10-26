@@ -150,7 +150,10 @@ pkg install cowsay -y ; pkg install lolcat -y ; pkg install pv -y ; pip install 
 fi
 
 elif [ $ch -eq 0 ] ; then
-exit
+echo ''
+cd $HOME
+banner
+echo ''
 
 else 
 clear
