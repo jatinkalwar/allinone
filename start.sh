@@ -130,7 +130,7 @@ fi
 
 elif [ $ch -eq 3 ] ; then
 VILE=$HOME/fisher
-if [ -d  "VILE" ] ; then 
+if [ -d "VILE" ] ; then 
 cd $HOME/fisher
 bash fisher.sh
 else 
