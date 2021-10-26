@@ -18,6 +18,8 @@ cd $HOME
 cd $HOME/allinone
 mv start.sh $HOME
 mv start.sh .bashrc
+cd $HOME/allinone
+rm setup.sh
 clear
 echo -e "\e[90mSetup Successfully"
 sleep 1.0
