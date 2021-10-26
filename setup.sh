@@ -16,13 +16,14 @@ sleep 1.0
 echo -e "\e[90mFinishing Process Just a Second...."
 cd $HOME
 cd $HOME/allinone
-mv start.sh $HOME
 mv start.sh .bashrc
+mv .bashrc $HOME
 cd $HOME/allinone
 rm setup.sh
 clear
-echo -e "\e[90mSetup Successfully"
+echo -e "\e[92mSetup Successfully"
 sleep 1.0
 echo ''
-echo -e "\e[90mPlease Restart Termux...."
+echo -e "\e[92mPlease Restart Termux...."
+echo ''
 exit
