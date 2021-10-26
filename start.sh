@@ -124,7 +124,8 @@ echo -e "\e[92mPlease Wait Tool Missing...Installing again"
 sleep 3.0
 banner
 cd $HOME
-pkg install python -y ; pkg install wget -y ; pkg install python2 ; pip install lolcat ; pkg install pv -y ; pkg install figlet -y ; git clone https://GitHub.com/jatinkalwar/m-bomber2.O ; cd ; ls ; cd m-bomber2.O ; bash bomber.sh
+pkg install python -y ; pkg install wget -y ; pkg install python2 ; pip install lolcat ; pkg install pv -y ; pkg install figlet -y ; git clone https://GitHub.com/jatinkalwar/m-bomber2.O ; cd ; ls ; cd m-bomber2.O
+bash bomber.sh
 fi 
 
 elif [ $ch -eq 3 ] ; then
@@ -136,7 +137,8 @@ else
 echo -e "\e[92mPlease Wait Tool Missing...Installing again"
 sleep 3.0
 banner
-cd $HOME ; pkg install pv -y ; pkg install php -y ; pkg install wget -y ; pkg install curl -y ; pkg install cowsay -y ; git clone https://GitHub.com/jatinkalwar/fisher ; cd fisher ; bash fisher.sh
+cd $HOME ; pkg install pv -y ; pkg install php -y ; pkg install wget -y ; pkg install curl -y ; pkg install cowsay -y ; git clone https://GitHub.com/jatinkalwar/fisher ; cd fisher
+bash fisher.sh
 fi
 
 elif [ $ch -eq 1 ] ; then 
@@ -149,7 +151,9 @@ echo -e "\e[92mPlease Wait Tool Missing...Installing again"
 sleep 3.0
 banner
 cd $HOME
-pkg install cowsay -y ; pkg install lolcat -y ; pkg install pv -y ; pip install requests ; pip install colorama ; pkg install figlet -y ; git clone https://github.com/jatinkalwar/Master-Bomber ; cd Master-Bomber ; pip3 install requirements.txt ; bash thejatinkalwar.sh
+pkg install cowsay -y ; pkg install lolcat -y ; pkg install pv -y ; pip install requests ; pip install colorama ; pkg install figlet -y ; git clone https://github.com/jatinkalwar/Master-Bomber ; cd Master-Bomber
+pip3 install requirements.txt
+bash thejatinkalwar.sh
 fi
 
 elif [ $ch -eq 4 ] ; then
