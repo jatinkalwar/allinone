@@ -92,8 +92,6 @@ upda
 menu() {
 clear
 banner
-cd $HOME/allinone
- play termux.mp3 > /dev/null 2>&1
 echo ''
 echo -e "\e[4;31m Please Read Instruction Carefully !!! \e[0m"
 echo ''
@@ -110,6 +108,8 @@ echo -e "\e[92m[\e[91m®\e[92m]\e[93m Add More Tools In Next Update\e[93m"
 #echo -e "\e[92m[\e[91m7\e[92m]\e[93m Reclone Tool
 #echo -e \e[92m[\e[91m0\e[92m]\e[93m Exit\e[93m"
 echo ''
+cd $HOME/allinone
+play termux.mp3 > /dev/null 2>&1
 echo -ne "\e[92mSelect Option\e[0m: \e[92m"
 read ch
     cd Core 
