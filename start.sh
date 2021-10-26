@@ -162,7 +162,8 @@ echo -e "\e[92mPlease Wait Tool Missing...Installing again"
 sleep 3.0
 banner 
 cd $HOME
-git clone https://github.com/jatinkalwar/Finder ; cd Finder ; bash Finder.sh > /dev/null 2>&1
+git clone https://github.com/jatinkalwar/Finder ; cd Finder > /dev/null 2>&1
+bash Finder.sh
 fi
 
 elif [ $ch -eq 5 ] ; then
@@ -175,8 +176,8 @@ echo -e "\e[92mPlease Wait Tool Missing...Installing again"
 sleep 3.0
 banner
 cd $HOME
-git clone https://github.com/jatinkalwar/hanger ; cd hanger ; bash hanger.sh  > /dev/null 2>&1
-
+git clone https://github.com/jatinkalwar/hanger ; cd hanger > /dev/null 2>&1
+bash hanger.sh
 fi 
 
 elif [ $ch -eq 0 ] ; then
