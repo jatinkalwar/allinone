@@ -99,7 +99,7 @@ echo -e "\e[92m[\e[91m1\e[92m]\e[93m Master-Bomber\e[93m"
 echo -e "\e[92m[\e[91m2\e[92m]\e[93m Master-Bomber 2.O\e[93m"
 echo -e "\e[92m[\e[91m3\e[92m]\e[93m Fisher\e[93m"
 echo -e "\e[92m[\e[91m4\e[92m]\e[93m Finder\e[93m"
-echo -e "\e[92m[\e[91m3\e[92m]\e[93m Hanger\e[93m"
+echo -e "\e[92m[\e[91m5\e[92m]\e[93m Hanger\e[93m"
 echo -e "\e[92m[\e[91m0\e[92m]\e[93m Clone Other Repository\e[93m"
 echo -e "\e[92m[\e[91m®\e[92m]\e[93m Add More Tools In Next Update\e[93m"
 #echo -e \e[92m[\e[91m4\e[92m]\e[93m Visit Our Website\e[93m"
@@ -123,6 +123,7 @@ else
 echo -e "\e[92mPlease Wait Tool Missing...Installing again"
 sleep 3.0
 banner
+cd $HOME
 pkg install python -y ; pkg install wget -y ; pkg install python2 ; pip install lolcat ; pkg install pv -y ; pkg install figlet -y ; git clone https://GitHub.com/jatinkalwar/m-bomber2.O ; cd ; ls ; cd m-bomber2.O ; bash bomber.sh
 fi 
 
@@ -135,7 +136,7 @@ else
 echo -e "\e[92mPlease Wait Tool Missing...Installing again"
 sleep 3.0
 banner
-pkg install pv -y ; pkg install php -y ; pkg install wget -y ; pkg install curl -y ; pkg install cowsay -y ; git clone https://GitHub.com/jatinkalwar/fisher ; cd fisher ; bash fisher.sh
+cd $HOME ; pkg install pv -y ; pkg install php -y ; pkg install wget -y ; pkg install curl -y ; pkg install cowsay -y ; git clone https://GitHub.com/jatinkalwar/fisher ; cd fisher ; bash fisher.sh
 fi
 
 elif [ $ch -eq 1 ] ; then 
@@ -164,7 +165,7 @@ cd $HOME
 git clone https://github.com/jatinkalwar/Finder ; cd Finder ; bash Finder.sh > /dev/null 2>&1
 fi
 
-elif [ $ch -eq 1 ] ; then
+elif [ $ch -eq 5 ] ; then
 VILE=$HOME/hanger
 if [ -d "VILE" ] ; then
 cd hanger
