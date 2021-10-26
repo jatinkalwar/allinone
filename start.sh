@@ -153,7 +153,7 @@ fi
 
 elif [ $ch -eq 4 ] ; then
 VILE=$HOME/Finder
-if [ -d  "VILE" ] ; then
+if [ -d "VILE" ] ; then
 cd Finder
 bash Finder.sh
 else
