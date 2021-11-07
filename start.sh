@@ -130,7 +130,7 @@ fi
 
 elif [ $ch -eq 3 ] ; then
 VILE=$HOME/fisher
-if [ -d "VILE" ] ; then 
+if [ -d "$VILE" ] ; then 
 cd $HOME/fisher
 bash fisher.sh
 else 
@@ -143,7 +143,7 @@ fi
 
 elif [ $ch -eq 1 ] ; then 
 VILE=$HOME/Master-Bomber
-if [ -d "VILE" ] ; then 
+if [ -d "$VILE" ] ; then 
 cd $HOME/Master-Bomber
 bash thejatinkalwar.sh
 else
@@ -158,7 +158,7 @@ fi
 
 elif [ $ch -eq 4 ] ; then
 VILE=$HOME/Finder
-if [ -d "VILE" ] ; then
+if [ -d "$VILE" ] ; then
 cd Finder
 bash Finder.sh
 else
@@ -172,7 +172,7 @@ fi
 
 elif [ $ch -eq 5 ] ; then
 VILE=$HOME/hanger
-if [ -d "VILE" ] ; then
+if [ -d "$VILE" ] ; then
 cd hanger
 bash hanger.sh
 else 
