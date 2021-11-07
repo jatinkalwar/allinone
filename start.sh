@@ -72,7 +72,7 @@ cd $HOME
 wget -L  https://github.com/jatinkalwar/toolupdater/raw/main/allinone/update.txt > /dev/null 2>&1
 
 mv update.txt $HOME/allinone
-secret="update v1.2"
+secret="update v1.3"
 cd $HOME/allinone
 ztext=$(cat update.txt)
 if [[ $secret = $ztext ]];
