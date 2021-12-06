@@ -33,7 +33,7 @@ pkg install wget -y
 pkg install sox -y
 ```
 ```bash
- pkg install cowsay -y
+pkg install cowsay -y
 ```
 ```bash
 git clone https://github.com/jatinkalwar/allinone
