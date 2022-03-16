@@ -3,6 +3,8 @@ wget -q --spider https://github.com/jatinkalwar
 
 if [ $? -eq 0 ]; then
     net=""
+    live
+    menu
 else
    net="\e[91m       You Are Not Connected To Internet!!!!"
 menu
@@ -288,6 +290,4 @@ menu
 fi
 }
 servo
-live
 
-menu
