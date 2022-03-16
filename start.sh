@@ -20,7 +20,7 @@ fi
 #live status
 live() {
 echo ''
-echo -e "\e[93mFetching Tools Information From Server"
+echo -e "\e[93mPlease Wait....Fetching Scripts Status From GitHub Server"
 rm .server.txt .server2.txt .server3.txt .server4.txt .server5.txt > /dev/null 2>&1
 
 #master-Bomber
