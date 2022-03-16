@@ -43,7 +43,7 @@ elif [[ $bas = 'Work' ]];
 then
 var1="\e[93m(\e[34mUnder-Maintenance\e[93m)"
 else
-var1="\e[93m(\e[91mNot Working\e[93m"
+var1="\e[93m(\e[91mNot Working\e[93m)"
 fi
 ##Master-Bomber2.O
 bbas=$(cat .server.txt)
@@ -54,7 +54,7 @@ elif [[ $bbas = 'Work' ]];
 then
 var2="\e[93m(\e[34mUnder-Maintenance\e[93m)"
 else
-var2="\e[93m(\e[91mNot Working\e[93m"
+var2="\e[93m(\e[91mNot Working\e[93m)"
 fi
 ##Fisher
 cbas=$(cat .server2.txt)
@@ -65,7 +65,7 @@ elif [[ $cbas = 'Work' ]];
 then
 var3="\e[93m(\e[34mUnder-Maintenance\e[93m)"
 else
-var3="\e[93m(\e[91mNot Working\e[93m"
+var3="\e[93m(\e[91mNot Working\e[93m)"
 fi
 ##Finder
 dbas=$(cat .server4.txt)
@@ -76,7 +76,7 @@ elif [[ $dbas = 'Work' ]];
 then
 var4="\e[93m(\e[34mUnder-Maintenance\e[93m)"
 else
-var4="\e[93m(\e[91mNot Working\e[93m"
+var4="\e[93m(\e[91mNot Working\e[93m)"
 fi
 ##Hanger
 ebas=$(cat .server3.txt)
@@ -87,7 +87,7 @@ elif [[ $ebas = 'Work' ]];
 then
 var5="\e[93m(\e[34mUnder-Maintenance\e[93m)"
 else
-var5="\e[93m(\e[91mNot Working\e[93m"
+var5="\e[93m(\e[91mNot Working\e[93m)"
 fi
 
 }
