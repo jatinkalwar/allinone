@@ -162,7 +162,7 @@ if [ $? -eq 0 ]; then
 wget -L  https://github.com/jatinkalwar/toolupdater/raw/main/allinone/update.txt > /dev/null 2>&1
 
 mv update.txt $HOME/allinone
-secret="update v1.4"
+secret="update v1.5"
 cd $HOME/allinone
 ztext=$(cat update.txt)
 if [[ $secret = $ztext ]];
@@ -202,7 +202,7 @@ echo -e "\e[92m[\e[91m®\e[92m]\e[93m Add More Tools In Next Update\e[93m"
 #echo -e \e[92m[\e[91m0\e[92m]\e[93m Exit\e[93m"
 echo ''
 cd $HOME/allinone
-play termux.mp3 > /dev/null 2>&1
+#play termux.mp3 > /dev/null 2>&1
 echo -ne "\e[92mSelect Option\e[0m: \e[92m"
 read ch
     cd Core 
